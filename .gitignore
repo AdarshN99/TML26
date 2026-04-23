@@ -1,1 +1,4 @@
 .DS_STORE
+model.pt
+priv.pt
+pub.pt
