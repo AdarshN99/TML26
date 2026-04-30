@@ -2,7 +2,7 @@
 
 ## Naive Approaches:
 
-Maximum Confidence Score: 0.051502 \n
+Maximum Confidence Score: 0.051502 <br> <br>
 Negative Loss:            0.051911
  	
 ## Python Environment
