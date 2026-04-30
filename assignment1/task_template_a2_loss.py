@@ -93,8 +93,8 @@ with torch.no_grad():
         imgs = imgs.to(device)
         labels = labels.to(device)
         logits = model(imgs)
-        loss = criterion(logits, labels).cpu().numpy()
-        scores = -loss
+        loss = criterion(logits, labels)
+        scores = torch.sigmoid(-loss).cpu().numpy()
 
         all_ids.extend(id_.tolist())
         all_scores.extend(scores.tolist())
