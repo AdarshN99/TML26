@@ -2,16 +2,16 @@
 
 ## Naive Approaches:
 
-Maximum Confidence Score: 0.051502 <br> <br>
-Negative Loss:            0.051911
+Maximum Confidence Score: 0.051502 <br> 
+Negative Loss:            0.051911 <br>
 
 ## Likelihood Ratio Attacks (LiRA):
 
-LiRA with 5 epochs 16 models: 0.059881
-LiRA with 6 epochs 32 models: 0.060290
-LiRA with 10 epochs 64 models:
-LiRA with 20 epochs 128 models: No Improvement
+LiRA with 5 epochs 16 models: 0.059881 <br>
+LiRA with 6 epochs 32 models: 0.060290 <br> 
+LiRA with 10 epochs 64 models: <br>
+LiRA with 20 epochs 128 models: No Improvement <br>
  	
 ## Python Environment
-source path/to/venv/bin/activate
+source path/to/venv/bin/activate <br>
 python3 -m pip install xyz
