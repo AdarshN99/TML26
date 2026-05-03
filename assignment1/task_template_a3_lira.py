@@ -94,7 +94,6 @@ def compute_scores(model, loader, device):
     with torch.no_grad():
         for batch in loader:
             # Unpack only the first 4 elements: (idxs, ids, imgs, labels)
-            # This works for both 4-item and 5-item datasets
             idxs, ids, imgs, labels = batch[:4] 
             
             logits = model(imgs.to(device))
@@ -172,7 +171,6 @@ for k, (train_idx, holdout_idx) in enumerate(splits):
             out_scores[idx].append(s)
             
     # 2. Collect Private Scores (Shadow models serve as the "OUT" distribution)
-    # The fix in compute_scores now allows this to run without ValueError
     full_priv_loader = DataLoader(priv_ds, batch_size=64, shuffle=False)
     p_scores = compute_scores(model_k, full_priv_loader, device)
     for idx, s in p_scores:
