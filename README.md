@@ -12,6 +12,7 @@ LiRA with 6 epochs 32 models: 0.060290 <br>
 LiRA with 10 epochs 64 models: No Improvement <br>
 LiRA with 20 epochs 128 models: No Improvement <br>
 RMIA with 32 models: No Improvement <br>
+RMIA with 64 models: No Improvement <br>
  	
 ## Python Environment
 source path/to/venv/bin/activate <br>

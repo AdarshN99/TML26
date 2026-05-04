@@ -3,13 +3,13 @@ import pandas as pd
 
 # config
 BASE = Path(__file__).parent
-INPUT1 = BASE / "submission_rmia.csv"
+INPUT1 = BASE / "submission_rmia_64.csv"
 INPUT2 = BASE / "submission_lira_32.csv"
-OUTPUT_CSV = BASE / "submission_lira_rmia.csv"
+OUTPUT_CSV = BASE / "submission_lira_rmia_32_64.csv"
 
 # weights (adjust as needed)
-W1 = 0.7
-W2 = 0.3
+W1 = 0.5
+W2 = 0.5
 
 def main():
     # load csvs
