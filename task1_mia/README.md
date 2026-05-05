@@ -1,16 +1,15 @@
-# Task 1 - Privacy: Membership Inference Attack
----
+## Task 1 - Privacy: Membership Inference Attack
 
-## Best Score
+### Best Score
 
 Best Score Acheived on Public Leaderboard is **0.060290** with LiRA (32 Shadow models with 6 epochs) <br>
 
 To reproduce the results:
 - run the command: `python task_template_a3_lira.py`
-- Results will be stored in submissions.csv
+- Results will be stored in `submissions.csv`
 - To submit to the leaderboard server, run `python submission.py`
 
-## Results for different methods:
+### Results for different methods:
 
 | Method                              | Score       |
 |-------------------------------------|------------|
