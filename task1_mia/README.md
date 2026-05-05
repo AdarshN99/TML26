@@ -7,7 +7,7 @@ Best Score Acheived on Public Leaderboard is **0.060290** with LiRA (32 Shadow m
 To reproduce the results:
 - run the command: `python task_template_lira.py`
 - Results will be stored in `submissions.csv`
-- To submit to the leaderboard server, run `python submission.py`
+- To submit to the leaderboard server, add API_KEY and run `python submission.py`
 
 ### Results for different methods:
 
