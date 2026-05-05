@@ -9,7 +9,7 @@ OUTPUT_CSV = BASE / "submission_lira_rmia_32_64.csv"
 
 
 BASE_URL = "http://34.63.153.158"   #DONOT CHANGE
-API_KEY = "b1df3e7627ff3092adf6f7cbe37783a5"
+API_KEY = ""
 TASK_ID = "01-mia"  #DONOT CHANGE
 
 
