@@ -5,7 +5,7 @@ from pathlib import Path
 
 
 BASE = Path(__file__).parent
-OUTPUT_CSV = BASE / "submission_lira_rmia_32_64.csv"
+OUTPUT_CSV = BASE / "submissions.csv"
 
 
 BASE_URL = "http://34.63.153.158"   #DONOT CHANGE
