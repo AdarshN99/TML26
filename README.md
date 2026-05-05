@@ -1,5 +1,8 @@
 # TML26
 
+Best Score Acheived on Public Leaderboard: 0.060290 with LiRA (32 Shadow models with 6 epochs) <br>
+
+
 ## Naive Approaches:
 
 Maximum Confidence Score: 0.051502 <br> 
