@@ -1,2 +1,3 @@
 *.pt
 .DS_STORE
+*.safetensors
