@@ -2,7 +2,9 @@ import os
 import sys
 import requests
 from pathlib import Path
-import pandas as pd
+
+BASE = Path(__file__).parent
+OUTPUT_CSV = BASE / "submissions.csv"
 
 # --------------------------------
 # SUBMISSION PROCESS
@@ -69,9 +71,6 @@ One key metric is computed:
 """
 BASE_URL = "http://34.63.153.158"
 API_KEY = "b1df3e7627ff3092adf6f7cbe37783a5"  # replace with your actual API key
-
-BASE = Path(__file__).parent
-OUTPUT_CSV = BASE / "submissions.csv"
 
 TASK_ID = "19-stolen-model-detection"
 FILE_PATH = OUTPUT_CSV  # replace with your actual file path

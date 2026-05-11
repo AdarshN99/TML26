@@ -44,16 +44,6 @@ print("True label:", y)
 print("Logits shape:", logits.shape)  # Should be [1, 100] for CIFAR-100
 print("Logits:", logits)
 
-# # --------------------------------
-# # SUBMISSION FORMAT
-# # --------------------------------
-
-"""
-The submission must be a .csv file with the following format:
-
--"id": ID of the subset (from 0 to 359)
--"score": Stealing confidence score for each image (float)
-"""
 
 # Example Submission:
 
@@ -63,4 +53,4 @@ submission_df = pd.DataFrame({
     "id": subset_ids,
     "score": confidence_scores
 })
-submission_df.to_csv("example_submission.csv", index=None)
+submission_df.to_csv("submission.csv", index=None)
