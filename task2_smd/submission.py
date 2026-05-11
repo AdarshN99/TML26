@@ -68,10 +68,13 @@ One key metric is computed:
   — measures the ability to correctly identify stolen models while keeping the false positive rate at 5%.
 """
 BASE_URL = "http://34.63.153.158"
-API_KEY = "YOUR_API_KEY_HERE"  # replace with your actual API key
+API_KEY = "b1df3e7627ff3092adf6f7cbe37783a5"  # replace with your actual API key
+
+BASE = Path(__file__).parent
+OUTPUT_CSV = BASE / "submissions.csv"
 
 TASK_ID = "19-stolen-model-detection"
-FILE_PATH = "PATH/TO/YOUR/SUBMISSION.csv"  # replace with your actual file path
+FILE_PATH = OUTPUT_CSV  # replace with your actual file path
 
 SUBMIT = True  # Set to True to enable submission
 
