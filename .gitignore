@@ -1,3 +1,4 @@
 *.pt
 .DS_STORE
 *.safetensors
+submission.py
