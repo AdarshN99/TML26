@@ -2,17 +2,17 @@
 
 ### Best Score
 
-Best Score Acheived on Public Leaderboard is **0.060290** with LiRA (32 Shadow models with 6 epochs) <br>
+Best Score Acheived on Public Leaderboard is **0.722222** 
 
 ### To reproduce the results:
-- Execute: `python task_template_lira.py`
-- Results will be stored in `submissions.csv`
-- To submit to the leaderboard server, add `API_KEY` and execute `python submission.py`
+- Execute: `python task_template_ensemble.py`
+- Results will be stored in `submissions_ensemble.csv`
 
 ### Results for different methods:
 
 | Method                              | Score       |
 |-------------------------------------|------------|
 | Cosine Similarity                   | 0.444444   |
-| L2 - distance                       | 0.444444   |
-
+| L2 - distance                       | No Improvement   |
+| logits                              | 0.629630   |
+| **Ensemble**                        | **0.722222**   |
